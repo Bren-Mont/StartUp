@@ -1,0 +1,54 @@
+@font-face{
+  font-family: "OpenSans";
+  src:url("fonts/NunitoSans-Regular.ttf")
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "OpenSans";
+    
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffe774; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+
+body{
+    background-image: url("../imagenes/portada.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    position: absolute;
+    top: 90vh;
+    margin: 0% 10%;
+    background: #FFE774;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 10px ;
+}
+.textos p{
+    font-size: 1.5rem;
+    color: #b94438;
+}
+

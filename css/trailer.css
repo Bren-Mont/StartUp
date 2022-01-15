@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "titulos";
+    src: url("fonts/static/Oswald-Regular.ttf");
+}
+header{
+    display: contents;
+}
+body{
+    background-image:url("../imagenes/fondo-trailer.jpg");
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: #688faa;
+}
+.tabla{
+    margin: 15px;
+    background-color: rgb(206, 146, 206);
+    width: 1000px;
+    border: 10px solid #FFE774;
+    border-radius: 15px;
+    position: absolute;
+    left: 160px;
+}
+
+thead th{
+    padding: 30px;
+    font-size: 40px;
+    color: #FFE774;
+    font-family: "titulos";
+}
+tbody td{
+    padding: 15px;
+    color: #ffffff;
+    font-size: 20px;
+   
+}
+tbody a{
+    color: #ffffff;
+}

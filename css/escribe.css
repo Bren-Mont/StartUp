@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "titulos";
+    src: url("fonts/static/Oswald-Regular.ttf");
+}
+body{
+    height: 100%;
+    background-image: url("../imagenes/Start-Up-tvN-2020-02.jpg");
+    background-size: cover;
+}
+.contenedor{
+    position: absolute;
+    margin: auto;
+    top: 80%;
+    left: 35%;
+}
+.saludo{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: "titulos";
+    position: absolute;
+    margin: auto;
+    top: 70%;
+    left: 20%;
+    text-align: center;
+}
+.email,.contraseña,.submit,.check{
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    border:none;
+}
+.submit{
+    background-color: #FFE774;
+    color: #b94438;
+}
